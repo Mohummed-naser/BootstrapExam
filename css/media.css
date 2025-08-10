@@ -8,6 +8,9 @@
     #Contact .container {
         width: 100%;
     }
+     .botton-up {
+        margin-bottom: 12px;
+    }
 }
 /* md 768px -> */
 @media screen and (max-width:768px) {
