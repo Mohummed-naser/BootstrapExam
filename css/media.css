@@ -1,0 +1,48 @@
+/* Media query breakpoints : */
+
+
+
+/* sm 576px ->  */
+@media screen and (max-width:576px) {
+
+    #Contact .container {
+        width: 100%;
+    }
+}
+/* md 768px -> */
+@media screen and (max-width:768px) {
+        #Contact .container {
+        width: 100%;
+        background-color: aquamarine;
+    }
+  
+}
+/* lg 992px -> */
+@media screen and (max-width:992px) {
+
+    #Contact .container {
+        width: 100%;
+    }
+}
+/* xl 1200px -> */
+@media screen and (max-width:1200px) {
+  
+    .inner::after{
+        bottom: 110px !important;
+        height: 60%;
+    }
+    #Contact .container {
+        width: 100%;
+    }
+
+}
+/* xxl 1400px -> */
+@media screen and (max-width:1400px) {
+
+/* .inner::after{
+    bottom: 100px !important;
+    height: 60%;
+} */
+
+
+}
