@@ -1,52 +1,43 @@
 /* Media query breakpoints : */
 
-
-
 /* sm 576px ->  */
-@media screen and (max-width:576px) {
-
-    #Contact .container {
-        width: 100%;
-    }
-     .botton-up {
-        margin-bottom: 12px;
-    }
-    
+@media screen and (max-width: 576px) {
+  #Contact .container {
+    width: 100%;
+  }
+  .botton-up {
+    margin-bottom: 13px;
+  }
+  .carousel-indicators {
+  
+    margin-right: 18%;}
 }
 /* md 768px -> */
-@media screen and (max-width:768px) {
-        #Contact .container {
-        width: 100%;
-        
-    }
-  
+@media screen and (max-width: 768px) {
+  #Contact .container {
+    width: 100%;
+  }
+  .navbar .under-line::before {
+   left: 9px; 
+  }
 }
 /* lg 992px -> */
-@media screen and (max-width:992px) {
-
-    #Contact .container {
-        width: 100%;
-    }
+@media screen and (max-width: 992px) {
+  #Contact .container {
+    width: 100%;
+  }
 }
 /* xl 1200px -> */
-@media screen and (max-width:1200px) {
-  
-    .inner::after{
-        bottom: 110px !important;
-        height: 60%;
-    }
-    #Contact .container {
-        width: 100%;
-    }
-
+@media screen and (max-width: 1200px) {
+  .inner::after {
+    bottom: 110px !important;
+    height: 60%;
+  }
+  #Contact .container {
+    width: 100%;
+  }
 }
 /* xxl 1400px -> */
-@media screen and (max-width:1400px) {
-
-/* .inner::after{
-    bottom: 100px !important;
-    height: 60%;
-} */
-
+@media screen and (max-width: 1400px) {
 
 }
